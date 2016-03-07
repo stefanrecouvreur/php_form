@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<title>My form</title>
+</head>
+<body>
+
+<div col-md-6 "img-thumbnail">
+                    <div id="feedback"> <div class="container">
+<div class="col-md-6 col-md-offset-3">
+    <div class="form-area">  
+        <form name="contactform" method="post" action="send_form_email.php">
+        <br style="clear:both">
+                    <h3 style="margin-bottom: 25px; text-align: center;">Contact Form</h3>
+        			<div class="form-group">
+						<input type="text" class="form-control" name="first_name" placeholder="First Name" required>
+					</div>
+					<div class="form-group">
+						<input type="text" class="form-control" name="last_name" placeholder="Last Name" required>
+					</div>
+					<div class="form-group">
+						<input type="text" class="form-control" name="email" placeholder="Email" required>
+					</div>
+					<div class="form-group">
+						<input type="text" class="form-control" name="telephone" placeholder="Telephone" required>
+					</div>
+                    <div class="form-group">
+                    <textarea class="form-control" type="textarea" name="comments" placeholder="Message" maxlength="140" rows="7"></textarea>
+                        <span class="help-block"><p id="characterLeft" class="help-block ">You have reached the limit</p></span>                    
+                    </div>
+            
+        <a href="http://www.mywebsite.com/email_form.php"><button type="submit" value="submit" class="btn btn-primary pull-right">Submit Form</button></a>
+        </form>
+    </div>
+</div>
+</div> </div> <!--feedback-->
+<body>
+</html>
